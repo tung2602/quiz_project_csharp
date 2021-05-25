@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WF6
 {
-    public partial class Formdangky : Form
+    public partial class FormRegister : Form
     {
-        public Formdangky()
+        public FormRegister()
         {
             InitializeComponent();
         }

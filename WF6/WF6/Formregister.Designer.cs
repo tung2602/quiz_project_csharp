@@ -1,7 +1,7 @@
 ﻿
 namespace WF6
 {
-    partial class Formdangky
+    partial class FormRegister
     {
         /// <summary>
         /// Required designer variable.
@@ -173,7 +173,7 @@ namespace WF6
             this.button3.Text = "Register";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // Formdangky
+            // FormRegister
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -192,8 +192,8 @@ namespace WF6
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Formdangky";
-            this.Text = "Formdangky";
+            this.Name = "FormRegister";
+            this.Text = "FormRegister";
             this.Load += new System.EventHandler(this.Formdangky_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

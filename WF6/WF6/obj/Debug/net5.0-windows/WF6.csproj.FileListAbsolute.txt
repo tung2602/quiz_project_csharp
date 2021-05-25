@@ -17,4 +17,4 @@ C:\Users\MHP\Documents\GitHub\quiz_project_csharp\WF6\WF6\obj\Debug\net5.0-windo
 C:\Users\MHP\Documents\GitHub\quiz_project_csharp\WF6\WF6\obj\Debug\net5.0-windows\ref\WF6.dll
 C:\Users\MHP\Documents\GitHub\quiz_project_csharp\WF6\WF6\obj\Debug\net5.0-windows\WF6.pdb
 C:\Users\MHP\Documents\GitHub\quiz_project_csharp\WF6\WF6\obj\Debug\net5.0-windows\WF6.genruntimeconfig.cache
-C:\Users\MHP\Documents\GitHub\quiz_project_csharp\WF6\WF6\obj\Debug\net5.0-windows\WF6.Formdangky.resources
+C:\Users\MHP\Documents\GitHub\quiz_project_csharp\WF6\WF6\obj\Debug\net5.0-windows\WF6.FormRegister.resources

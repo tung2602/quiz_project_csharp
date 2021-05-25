@@ -30,8 +30,8 @@ namespace WF6
         private void register_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Formdangky Formdangky = new Formdangky();
-            Formdangky.ShowDialog();
+            FormRegister form = new FormRegister();
+            form.ShowDialog();
             this.Close();
         }
     }
