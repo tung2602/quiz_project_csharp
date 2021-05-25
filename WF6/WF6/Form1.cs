@@ -34,5 +34,10 @@ namespace WF6
             form.ShowDialog();
             this.Close();
         }
+
+        private void logIn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -33,7 +33,6 @@ namespace WF6
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.register = new System.Windows.Forms.Button();
-            this.forgotPassword = new System.Windows.Forms.Button();
             this.logIn = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -75,7 +74,7 @@ namespace WF6
             // 
             // register
             // 
-            this.register.Location = new System.Drawing.Point(204, 173);
+            this.register.Location = new System.Drawing.Point(274, 173);
             this.register.Name = "register";
             this.register.Size = new System.Drawing.Size(75, 23);
             this.register.TabIndex = 3;
@@ -83,18 +82,9 @@ namespace WF6
             this.register.UseVisualStyleBackColor = true;
             this.register.Click += new System.EventHandler(this.register_Click);
             // 
-            // forgotPassword
-            // 
-            this.forgotPassword.Location = new System.Drawing.Point(288, 173);
-            this.forgotPassword.Name = "forgotPassword";
-            this.forgotPassword.Size = new System.Drawing.Size(122, 23);
-            this.forgotPassword.TabIndex = 4;
-            this.forgotPassword.Text = "Forgot Password ?";
-            this.forgotPassword.UseVisualStyleBackColor = true;
-            // 
             // logIn
             // 
-            this.logIn.Location = new System.Drawing.Point(417, 173);
+            this.logIn.Location = new System.Drawing.Point(394, 173);
             this.logIn.Name = "logIn";
             this.logIn.Size = new System.Drawing.Size(75, 23);
             this.logIn.TabIndex = 5;
@@ -115,6 +105,7 @@ namespace WF6
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(299, 23);
             this.textBox2.TabIndex = 7;
+            this.textBox2.UseSystemPasswordChar = true;
             // 
             // label3
             // 
@@ -147,7 +138,6 @@ namespace WF6
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.logIn);
-            this.Controls.Add(this.forgotPassword);
             this.Controls.Add(this.register);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -167,7 +157,6 @@ namespace WF6
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button register;
-        private System.Windows.Forms.Button forgotPassword;
         private System.Windows.Forms.Button logIn;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
