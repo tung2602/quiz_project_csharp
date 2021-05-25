@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WF6
 {
-    public partial class Form1 : Form
+    public partial class LogIn : Form
     {
-        public Form1()
+        public LogIn()
         {
             InitializeComponent();
         }
@@ -20,6 +20,16 @@ namespace WF6
         private void button1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+/*
+            test mp = new test();
+            mp.Text = " Welcome Mr." + textBox1.Text;
+            this.Hide();
+            mp.ShowDialog();
+            this.Close();*/
         }
     }
 }

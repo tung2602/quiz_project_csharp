@@ -1,7 +1,7 @@
 ﻿
 namespace WF6
 {
-    partial class Form1
+    partial class LogIn
     {
         /// <summary>
         ///  Required designer variable.
@@ -34,11 +34,11 @@ namespace WF6
             this.label2 = new System.Windows.Forms.Label();
             this.register = new System.Windows.Forms.Button();
             this.forgotPassword = new System.Windows.Forms.Button();
-            this.logIn = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -91,15 +91,6 @@ namespace WF6
             this.forgotPassword.Text = "Forgot Password ?";
             this.forgotPassword.UseVisualStyleBackColor = true;
             // 
-            // logIn
-            // 
-            this.logIn.Location = new System.Drawing.Point(417, 173);
-            this.logIn.Name = "logIn";
-            this.logIn.Size = new System.Drawing.Size(75, 23);
-            this.logIn.TabIndex = 5;
-            this.logIn.Text = "Log in";
-            this.logIn.UseVisualStyleBackColor = true;
-            // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(274, 89);
@@ -135,22 +126,32 @@ namespace WF6
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(417, 173);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 10;
+            this.button2.Text = "LogIn";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // LogIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(607, 243);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.logIn);
             this.Controls.Add(this.forgotPassword);
             this.Controls.Add(this.register);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form1";
+            this.Name = "LogIn";
             this.Text = "Quiz Application";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -170,6 +171,7 @@ namespace WF6
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
